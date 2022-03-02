@@ -21,7 +21,7 @@ function FormCard({ movieId } : Props) {
             .then(response => {
                 setMovie(response.data)
             });
-    })
+    }, [movieId]); // Apenas re-execute o efeito quando o movieId mudar
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 
