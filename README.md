@@ -4,7 +4,7 @@ App de catálogo de filmes que exibe média de avaliações e permite que o usu�
 
 ## Front end ( ReactJS)
 
-versão node: 16.xx
+versão node: 16.14.0
 
 ### deploy app frontend
 
